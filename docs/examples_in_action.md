@@ -81,7 +81,7 @@ final class SomeInjectClass
 
     public function injectInjectMe(InjectionClass $inject): void
     {
-        $this->inject = $inject;
+        $this->injectMe = $inject;
     }
 }
 ```
